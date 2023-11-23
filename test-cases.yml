@@ -7,7 +7,7 @@
     Открыта страница регистрации. https://codebattle.hexlet.io/users/new?locale=en&next=%2F
   test-data: |
     Тестовые данные
-    Nickname = username Email = ilona@mail.ru Password = password 
+    Nickname = username Email = каждый раз берём новый Password = password 
   steps:
     - Вводим Nickname
     - Вводим Email
