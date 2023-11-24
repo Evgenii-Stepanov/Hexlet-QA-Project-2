@@ -113,7 +113,11 @@
     - Выбираем задание на игру "rect_area"
     - Нажимаем кнопку «Create a battle»
     - выбираем язык Node.js
-    - Решаем задачу раньше бота с помощью следующего кода: const _ = require("lodash"); const R = require("rambda"); const solution = (width, length) => { return width * length; }; module.exports = solution;
+    - Решаем задачу раньше бота с помощью следующего кода: 
+      #const _ = require("lodash"); 
+      #const R = require("rambda"); 
+      #const solution = (width, length) => { return width * length; }; 
+      #module.exports = solution;
     - Нажимаем на зелёную кнопку "Run"
   expected-result: |
     Пользователь должен видеть уведомление о победе
@@ -198,7 +202,11 @@
     empty
   steps:
     - Выбираем язык "Node.js"
-    - Решаем задачу раньше оппонента с помощью следующего кода:const _ = require("lodash"); const R = require("rambda"); const solution = (width, length) => { return width * length; }; module.exports = solution;
+    - Решаем задачу раньше оппонента с помощью следующего кода:
+      #const _ = require("lodash"); 
+      #const R = require("rambda"); 
+      #const solution = (width, length) => { return width * length; }; 
+      #module.exports = solution;
     - Нажимаем на зелёную кнопку "Run"
   expected-result: |
     Пользователь должен видеть уведомление о победе
@@ -212,7 +220,11 @@
   test-data: |
     empty
   steps:
-    - Соперник должен ввести следующий код:const _ = require("lodash"); const R = require("rambda"); const solution = (width, length) => { return width * length; }; module.exports = solution;
+    - Соперник должен ввести следующий код:
+      #const _ = require("lodash"); 
+      #const R = require("rambda"); 
+      #const solution = (width, length) => { return width * length; }; 
+      #module.exports = solution;
     - Соперник нажимает на зелёную кнопку "Run" 
   expected-result: |
     Пользователь должен видеть уведомление о поражении
