@@ -272,7 +272,11 @@
     empty
   steps:
     - Выбираем язык "Node.js"
-    - Решаем задачу раньше друга с помощью следующего кода:const _ = require("lodash"); const R = require("rambda"); const solution = (width, length) => { return width * length; }; module.exports = solution;
+    - Решаем задачу раньше друга с помощью следующего кода:
+      #const _ = require("lodash"); 
+      #const R = require("rambda"); 
+      #const solution = (width, length) => { return width * length; }; 
+      #module.exports = solution;
     - Нажимаем на зелёную кнопку "Run"
   expected-result: |
     Пользователь должен видеть уведомление о победе
@@ -286,7 +290,11 @@
   test-data: |
     empty
   steps:
-    - Друг должен ввести следующий код:const _ = require("lodash"); const R = require("rambda"); const solution = (width, length) => { return width * length; }; module.exports = solution;
+    - Друг должен ввести следующий код:
+      #const _ = require("lodash"); 
+      #const R = require("rambda"); 
+      #const solution = (width, length) => { return width * length; }; 
+      #module.exports = solution;
     - Друг нажимает на зелёную кнопку "Run" 
   expected-result: |
     Пользователь должен видеть уведомление о поражении
