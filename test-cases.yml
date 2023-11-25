@@ -113,7 +113,7 @@
     - Выбираем задание на игру "rect_area"
     - Нажимаем кнопку «Create a battle»
     - выбираем язык Node.js
-    - Решаем задачу раньше бота с помощью следующего кода: 
+    - Решаем задачу раньше бота с помощью следующего кода
       #const _ = require("lodash"); 
       #const R = require("rambda"); 
       #const solution = (width, length) => { return width * length; }; 
@@ -202,7 +202,7 @@
     empty
   steps:
     - Выбираем язык "Node.js"
-    - Решаем задачу раньше оппонента с помощью следующего кода:
+    - Решаем задачу раньше оппонента с помощью следующего кода
       #const _ = require("lodash"); 
       #const R = require("rambda"); 
       #const solution = (width, length) => { return width * length; }; 
@@ -220,7 +220,7 @@
   test-data: |
     empty
   steps:
-    - Соперник должен ввести следующий код:
+    - Соперник должен ввести следующий код
       #const _ = require("lodash"); 
       #const R = require("rambda"); 
       #const solution = (width, length) => { return width * length; }; 
@@ -272,7 +272,7 @@
     empty
   steps:
     - Выбираем язык "Node.js"
-    - Решаем задачу раньше друга с помощью следующего кода:
+    - Решаем задачу раньше друга с помощью следующего кода
       #const _ = require("lodash"); 
       #const R = require("rambda"); 
       #const solution = (width, length) => { return width * length; }; 
@@ -290,7 +290,7 @@
   test-data: |
     empty
   steps:
-    - Друг должен ввести следующий код:
+    - Друг должен ввести следующий код
       #const _ = require("lodash"); 
       #const R = require("rambda"); 
       #const solution = (width, length) => { return width * length; }; 
